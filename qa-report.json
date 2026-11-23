@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-23",
+  "template_version": "1.3.0",
+  "template_commit": "65780137fa12eda7500f48d29c5b261411305274",
+  "html_bytes": 591436,
+  "html_sha256": "dbe9b4db478410cd9f2bee2d999ce12cea8d0939b1c2a53b376bf18c49f96ae2",
+  "trades": 448,
+  "holders_collected": 100,
+  "pool_catalogue": 179,
+  "snapshot_errors": [],
+  "history_complete": false,
+  "verified_actions_run": "https://github.com/Freebielife/HYDRA/actions/runs/45244658388",
+  "scheduled_execution_verified": false,
+  "cloudflare_registration_deployed": false,
+  "ton_storage_published": false,
+  "checks": [
+    "17 Python tests passed",
+    "15 Node tests passed",
+    "JavaScript syntax passed",
+    "build.py and verify.py passed",
+    "desktop and 320/390px iframe viewport QA",
+    "RU/EN, buy/sell filtering, holders 10 to 20, TON/USD, contract copy",
+    "no external rendering scripts, fonts or images",
+    "offline rendering with CSP connect-src none"
+  ],
+  "scope": "Trade feed: three configured native TON pools; other pairs are shown as pool catalogue only."
+}
