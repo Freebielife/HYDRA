@@ -1,0 +1,12 @@
+{
+  "id": "hydra",
+  "owner": "Freebielife",
+  "repo": "HYDRA",
+  "workflow": "update.yml",
+  "ref": "main",
+  "everyMinutes": 30,
+  "phaseMinutes": 20,
+  "enabled": true,
+  "status": "prepared_not_deployed",
+  "fallback": "GitHub Actions cron 17,47 * * * *; disable when Cloudflare registration is verified"
+}

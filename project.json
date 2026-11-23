@@ -1,0 +1,114 @@
+{
+  "slug": "hydra",
+  "name": "Hydra",
+  "symbol": "HYDRA",
+  "master": "EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_",
+  "decimals": 6,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "HYDRA"
+  },
+  "pools": [
+    {
+      "address": "EQBF-YYoDy6ue0J4K-v5L_HYzwWCLpwXSLsTFmT7hr2uqHf5",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQBF-YYoDy6ue0J4K-v5L_HYzwWCLpwXSLsTFmT7hr2uqHf5/events?limit=100"
+    },
+    {
+      "address": "EQAE3jqovQueivQFoIMuEOVlDY7oERwWt9xxF9LAExAD57ur",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQAE3jqovQueivQFoIMuEOVlDY7oERwWt9xxF9LAExAD57ur/events?limit=100"
+    },
+    {
+      "address": "EQBRARIHgakLLoc1FrvEMIrk4D-JxsQ70aTiAwDT3xQaCh6Y",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQBRARIHgakLLoc1FrvEMIrk4D-JxsQ70aTiAwDT3xQaCh6Y/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQBF-YYoDy6ue0J4K-v5L_HYzwWCLpwXSLsTFmT7hr2uqHf5",
+  "links": {
+    "telegram": "https://t.me/Ton_HYDRA_Community"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795460212,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=2",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=3",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=4",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=5",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=6",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=7",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=8",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_/pools?page=9"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "HYDRA — токен Hydra в сети TON с точностью 6 знаков. Согласно самоописанию в метаданных контракта, проект ориентирован на долгосрочный фарминг: для продажи заявлены 0,66% общего объёма, остальные токены предназначены для фарминга; заявлена добыча 100 000 HYDRA в год. Это заявления проекта, а не независимо подтверждённые параметры эмиссии или доходности.",
+    "origin": "token_metadata",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQD4P32U10snNoIavoq6cYPTQR82ewAjO20epigrWRAup54_"
+    ],
+    "checked_at": "2026-11-23"
+  },
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://raw.githubusercontent.com/ShadowTi/token_sonya/main/LOGO_256_256.png",
+  "flag_file": "web/project-flag.webp",
+  "flag_source": "User attachment image(9).png, explicitly selected for all sections and hero on 2026-11-23",
+  "logo_provenance": {
+    "actual_origin": "user_attachment",
+    "file": "image(9).png",
+    "approved_for_hero": true,
+    "metadata_image_downloaded": false
+  },
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQBF-YYoDy6ue0J4K-v5L_HYzwWCLpwXSLsTFmT7hr2uqHf5",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://raw.githubusercontent.com/ShadowTi/token_sonya/main/LOGO_256_256.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "User attachment image(9).png, explicitly selected for all sections and hero on 2026-11-23",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/Ton_HYDRA_Community"
+  }
+}
